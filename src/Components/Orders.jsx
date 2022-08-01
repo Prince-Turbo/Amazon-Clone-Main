@@ -32,6 +32,7 @@ const Orders = () => {
       };
     }
   }, [user]);
+  console.log(user);
   return (
     <div className="orders">
       <h2 className="orders__title">Your Orders</h2>
