@@ -1,0 +1,129 @@
+.login {
+  background-color: white;
+  height: 100vh;
+}
+
+.login__contentContainer {
+  background-color: white;
+  height: fit-content;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid lightgray;
+  border-image: linear-gradient(
+      90deg,
+      transparent 20%,
+      lightgray 50%,
+      transparent 80%
+    )
+    1;
+  box-shadow: 5px 0 10px lightgray;
+}
+
+.login__link {
+  color: white !important;
+  text-decoration: none;
+}
+
+.login__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 20px auto;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  width: 300px;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.login__title {
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form__h5 {
+  padding-left: 5px;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.login__form__input {
+  margin-bottom: 10px;
+  padding: 7px;
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.login__container > p {
+  text-align: justify;
+  padding: 0 5px;
+  margin: 0;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login__signInButton {
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-top: 10px;
+  background-color: #f0c14b;
+}
+
+.login__signInButton:hover {
+  background-color: #e5b63d;
+  cursor: pointer;
+}
+
+.login__newText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 340px;
+}
+
+.login__newText > p {
+  color: gray;
+  font-size: 12px;
+  margin: 20px 10px;
+}
+
+.login__span {
+  flex: 1;
+}
+
+.login__span--left {
+  border: 1px solid lightgray;
+  border-image: linear-gradient(90deg, transparent, lightgray) 1;
+}
+
+.login__span--right {
+  border: 1px solid lightgray;
+  border-image: linear-gradient(-90deg, transparent, lightgray) 1;
+}
+
+.login__registerButton {
+  width: 340px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.login__registerButton:hover {
+  background-color: #dee1e7;
+  cursor: pointer;
+}

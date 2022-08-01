@@ -1,0 +1,95 @@
+.register {
+  background-color: white;
+  height: 100vh;
+}
+
+.register__contentContainer {
+  background-color: white;
+  height: fit-content;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px solid lightgray;
+  border-image: linear-gradient(
+      90deg,
+      transparent 20%,
+      lightgray 50%,
+      transparent 80%
+    )
+    1;
+  box-shadow: 5px 0 10px lightgray;
+}
+
+.register__link {
+  color: white !important;
+  text-decoration: none;
+}
+
+.register__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 20px auto;
+}
+
+.register__container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  width: 300px;
+  padding: 20px;
+  height: fit-content;
+  border-radius: 5px;
+}
+
+.register__title {
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.register__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register__form__h5 {
+  padding-left: 5px;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.register__form__input {
+  margin-bottom: 10px;
+  padding: 7px;
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+
+.register__continueButton {
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  margin-top: 10px;
+  background-color: #f0c14b;
+  cursor: pointer;
+}
+
+.register__container > p {
+  text-align: justify;
+  padding: 0 5px;
+  margin: 0;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.register__signInLink {
+  text-decoration: none;
+  color: blue;
+}
+
+.register__signInLink:hover {
+  text-decoration: underline;
+}

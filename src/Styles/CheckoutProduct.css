@@ -1,0 +1,126 @@
+.checkoutProduct {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.checkoutProduct__image {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+}
+
+.checkoutProduct__info {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkoutProduct__basicInfo {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  flex: 1;
+}
+
+.checkoutProduct__title {
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.checkoutProduct__stock {
+  margin: 0;
+  color: green;
+  font-size: smaller;
+}
+
+.checkoutProduct__prime {
+  margin: 0;
+  width: 50px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.checkoutProduct__rating {
+  margin: 0;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.checkoutProduct__filledStar {
+  color: #ffa41c;
+}
+
+.checkoutProduct__emptyStar {
+  color: #d3d3d3;
+}
+
+.checkoutProduct__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.checkoutProduct__quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid lightgray;
+  border-image: linear-gradient(
+      to bottom,
+      transparent 10%,
+      lightgray 50%,
+      transparent 90%
+    )
+    1;
+}
+
+.checkoutProduct__quantityTitle {
+  font-size: 13px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.checkoutProduct__quantityButton {
+  border: 1px solid gray;
+  font-size: 13px;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  box-shadow: 2px 2px 3px lightgray, -2px 0 3px lightgray;
+}
+
+.checkoutProduct__quantityButton:hover {
+  cursor: pointer;
+}
+
+.checkoutProduct__quantityText {
+  font-size: 13px;
+  margin: 0 10px;
+}
+
+.checkoutProduct__button {
+  width: fit-content;
+  background-color: transparent;
+  color: #007185;
+  font-size: 0.8rem;
+  border: none;
+  padding: 0;
+}
+
+.checkoutProduct__button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.checkoutProduct__price {
+  justify-self: flex-end;
+}
