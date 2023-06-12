@@ -7,8 +7,8 @@ const firebaseConfig = {
   authDomain: 'amzn-clone-desndev.firebaseapp.com',
   projectId: 'amzn-clone-desndev',
   storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: '332067590431',
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  messagingSenderId: '332067590431',
   measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
